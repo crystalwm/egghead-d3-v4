@@ -1,0 +1,29 @@
+{
+    "name": "egghead-d3-v4",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "directories": {
+        "doc": "docs"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "browser-sync start -s -f ./lessons/lesson1/index.html ./lessons/lesson1/src --no-ui --no-notify"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/crystalwm/egghead-d3-v4.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/crystalwm/egghead-d3-v4/issues"
+    },
+    "homepage": "https://github.com/crystalwm/egghead-d3-v4#readme",
+    "dependencies": {
+        "d3": "^4.9.1"
+    },
+    "devDependencies": {
+        "browser-sync": "^2.18.12"
+    }
+}
