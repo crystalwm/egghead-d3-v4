@@ -16,9 +16,3 @@ npm install --save d3
 ```
 `browser-sync start -s` browser-sync是start server
 `-f index.html src`监视index.html文件和src文件夹
-
-
-
-
-
-
